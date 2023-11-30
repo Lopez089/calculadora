@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 280px;
+}
+
+input[type="button"] {
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-primary);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: background 500ms ease-out;
+  -webkit-transition: background 500ms ease-out;
+  -moz-transition: background 500ms ease-out;
+  -ms-transition: background 500ms ease-out;
+  -o-transition: background 500ms ease-out;
+}
+
+input[type="button"]:hover {
+  background: var(--color-primary-200);
+}
+
+.btn-lg {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  width: auto !important;
+  border-radius: 2rem !important;
+  padding-left: 1.5rem;
+  -webkit-border-radius: 2rem !important;
+  -moz-border-radius: 2rem !important;
+  -ms-border-radius: 2rem !important;
+  -o-border-radius: 2rem !important;
+}
+
+.btn-primary {
+  background: #333 !important;
+}
+
+.btn-primary:hover {
+  background: #7c7c7c !important;
+}
+
+.btn-secondary {
+  background: #A5A5A5 !important;
+  color: #000 !important;
+}
+
+.btn-secondary:hover {
+  background: #fff !important;
+
+}
+
+.btn-active {
+  background: #fff !important;
+  color: var(--color-primary) !important;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: .8rem;
+}
+
+.result {
+  text-align: right;
+  font-weight: 300;
+  color: #fff;
+}
+
+.result p {
+  font-size: 3.2em;
+  overflow: hidden;
+}
